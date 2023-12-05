@@ -26,18 +26,19 @@
 				produto = (Produto) request.getAttribute("produto");
 			}
 			%>
+			<input type="hidden" name="id" value="<% out.print(produto.getProduto_id()); %>">
 			
 			<div>
 				<label><strong>Descrição:</strong></label><input type="text"
-					name="descricao" values="<%out.print(produto.getDescricao()); %>" >
+					name="descricao" values="<%out.print(produto.getDescricao());%>">
 			</div>
 			<div>
 				<label><strong>Quantidade:</strong></label><input type="text"
-					name="quantidade" values="<%out.print(produto.getQuantidade()); %>" >>
+					name="quantidade" values="<%out.print(produto.getQuantidade());%>">
 			</div>
 			<div>
 				<label><strong>Preço:</strong></label><input type="text"
-					name="preco" values="<%out.print(produto.getPreco()); %>" >>
+					name="preco" values="<%out.print(produto.getPreco());%>">
 			</div>
 
 			<label><strong>Disponível On-Line:</strong></label><input

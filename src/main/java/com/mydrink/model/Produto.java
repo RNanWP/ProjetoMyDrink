@@ -67,6 +67,11 @@ public class Produto {
 		new ProdutoDao().ExcluirProduto(Produto_id);
 	}
 	
+	public void alterar() {
+	    new ProdutoDao().AlterarProduto(this);
+	}
+	
+	
 	public Produto buscarProdutoPorId(int Produto_id) {
 		return new ProdutoDao().BuscarProdutoPorId(Produto_id);
 	}

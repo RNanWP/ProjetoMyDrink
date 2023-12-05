@@ -5,66 +5,73 @@
     <servlet-name>buscar</servlet-name>
     <servlet-class>com.mydrink.controller.buscarProdutoController</servlet-class>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>buscar</servlet-name>
     <url-pattern>/buscarProduto</url-pattern>
   </servlet-mapping>
-  
-    <servlet>
+  <servlet>
     <servlet-name>modificar</servlet-name>
     <servlet-class>com.mydrink.controller.modificarProdutoController</servlet-class>
   </servlet>
-  
-    <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>modificar</servlet-name>
     <url-pattern>/modificarProduto</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>cadastrar</servlet-name>
     <servlet-class>com.mydrink.controller.cadastrarProdutoController</servlet-class>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>cadastrar</servlet-name>
     <url-pattern>/cadastrarProduto</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <description></description>
     <display-name>cadastrarProdutoController</display-name>
     <servlet-name>cadastrarProdutoController</servlet-name>
     <servlet-class>com.mydrink.controller.cadastrarProdutoController</servlet-class>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>cadastrarProdutoController</servlet-name>
     <url-pattern>/cadastrarProdutoController</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <description></description>
     <display-name>buscarProdutoController</display-name>
     <servlet-name>buscarProdutoController</servlet-name>
     <servlet-class>com.mydrink.controller.buscarProdutoController</servlet-class>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>buscarProdutoController</servlet-name>
     <url-pattern>/buscarProdutoController</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <description></description>
     <display-name>modificarProdutoController</display-name>
     <servlet-name>modificarProdutoController</servlet-name>
     <servlet-class>com.mydrink.controller.modificarProdutoController</servlet-class>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>modificarProdutoController</servlet-name>
     <url-pattern>/modificarProdutoController</url-pattern>
   </servlet-mapping>
   
+    <servlet>
+    <servlet-name>alterar</servlet-name>
+    <servlet-class>com.mydrink.controller.alterarProdutoController</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>alterar</servlet-name>
+    <url-pattern>/alterarProduto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>alterarProdutoController</display-name>
+    <servlet-name>alterarProdutoController</servlet-name>
+    <servlet-class>com.mydrink.controller.alterarProdutoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>alterarProdutoController</servlet-name>
+    <url-pattern>/alterarProdutoController</url-pattern>
+  </servlet-mapping>
 </web-app>
